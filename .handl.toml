@@ -1,0 +1,6 @@
+[dependencies]
+math-handl = { path = "../lib-math-handl/src" }
+math-c = { path = "../lib-math-c/src" }
+
+# own package
+math = { path = "src" }
