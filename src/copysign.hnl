@@ -1,0 +1,4 @@
+--- Copysign arrow signature.
+from "type" import { Number }
+
+export Copysign: (Number * Number) ~[1]~> Number

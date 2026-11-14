@@ -1,0 +1,4 @@
+--- Log1p arrow signature.
+from "type" import { Number }
+
+export Log1p: Number ~[1]~> Number

@@ -83,6 +83,10 @@ from "math-c/e" import e as __e
 export e := __e
 from "math-c/exp" import exp as __exp
 export exp := __exp
+from "math-c/exp2" import exp2 as __exp2
+export exp2 := __exp2
+from "math-c/expm1" import expm1 as __expm1
+export expm1 := __expm1
 from "math-c/factorial" import factorial as __factorial
 export factorial := __factorial
 from "math-c/floor" import floor as __floor
@@ -105,12 +109,18 @@ from "math-c/log10" import log10 as __log10
 export log10 := __log10
 from "math-c/log2" import log2 as __log2
 export log2 := __log2
+from "math-c/log1p" import log1p as __log1p
+export log1p := __log1p
 from "math-c/nan" import nan as __nan
 export nan := __nan
 from "math-c/pi" import pi as __pi
 export pi := __pi
 from "math-c/pow" import pow as __pow
 export pow := __pow
+from "math-c/copysign" import copysign as __copysign
+export copysign := __copysign
+from "math-c/nextafter" import nextafter as __nextafter
+export nextafter := __nextafter
 from "math-c/radians" import radians as __radians
 export radians := __radians
 from "math-c/round" import round as __round

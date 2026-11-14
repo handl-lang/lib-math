@@ -1,0 +1,4 @@
+--- Nextafter arrow signature.
+from "type" import { Number }
+
+export Nextafter: (Number * Number) ~[1]~> Number
