@@ -1,3 +1,3 @@
 -- lib-math: modules this package provides (entry defaults to
 -- src/index.hnl; N modules resolve to src/<name>/index.hnl).
-{ deps: { "math-handl": "branch:main", "math-c": "branch:main" }, modules: ["math"] }
+{ modules: ["math"], deps: { "math-handl": "branch:main", "math-c": "branch:main" }, description: "Standard math port types — the math surface contracts.", license: "MIT" }

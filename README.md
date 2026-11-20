@@ -2,15 +2,11 @@
 
 Standard math port types (the math surface contracts).
 
-Part of the `handl-lang` org split (ADR-0128). History is a `git subtree
-split` of `platform/handl-packages/math/`.
-
 ## Layout
 
 ```text
 src/        the .hnl sources
-pkg.hnl     dependencies, when the package has any:
-            `{ deps: { <name>: "branch:<ref>" } }`
+pkg.hnl     package manifest — modules, deps, description, license
 ```
 
 Dependencies: see `pkg.hnl`
