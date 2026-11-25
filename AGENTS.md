@@ -11,7 +11,7 @@ the `js` ffi) implement these signatures.
 | --- | --- |
 | `src/*.hnl` | one file per math arrow (`abs`, `add`, `ceil`, `factorial`, `gcd`, …) |
 | `pkg.hnl` | manifest — `modules: ["math"]`, deps on `math-handl` + `math-c` |
-| `scripts/hnl-gate.sh`, `ci.sh` | the gate / bupha entry |
+| `scripts/hnl-gate.sh`, `workflows/gate.yaml` | the gate / bupha entry |
 
 ## Contract
 
