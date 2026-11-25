@@ -1,4 +1,4 @@
 --- Infinity arrow signature.
 from "type" import { Number, Unit }
 
-export Infinity: Unit ~[1]~> Number
+export Infinity: Unit ~>[1] Number
